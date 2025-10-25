@@ -1,0 +1,9 @@
+# safety: never commit secrets from other dirs
+*.pfx
+*.pem
+*.key
+vault.json
+secure/
+../secure/
+../**/secure/
+../**/vault.json
